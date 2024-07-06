@@ -1,7 +1,6 @@
 {
   "name": "realtime_tracking",
   "version": "1.0.0",
-  "description": "A real-time tracking system using Socket.io, Leaflet, Node.js, and Express.",
   "main": "server.js",
   "scripts": {
     "dev": "npx nodemon server/server.js",
@@ -10,10 +9,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Wanijya Bisen",
   "license": "ISC",
-  "description": "",
+  "description": "A real-time tracking system using Socket.io, Leaflet, Node.js, and Express.",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "socket.io": "^4.7.5"

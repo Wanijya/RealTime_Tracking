@@ -3,6 +3,8 @@ const app = express();
 const http = require("http");
 const path = require("path");
 
+require("dotenv").config({ path: "./.env" });
+
 const socketIo = require("socket.io");
 const server = http.createServer(app);
 const io = socketIo(server);
@@ -23,4 +25,4 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-server.listen(3000);
+server.listen(process.env.PORT);
