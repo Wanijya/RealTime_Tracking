@@ -2,7 +2,7 @@
   "name": "realtime_tracking",
   "version": "1.0.0",
   "description": "A real-time tracking system using Socket.io, Leaflet, Node.js, and Express.",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "dev": "npx nodemon server/server.js",
     "start": "node server/server.js",
